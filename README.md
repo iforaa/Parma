@@ -23,6 +23,7 @@ For more examples, please refer to [demo][1] app.
 * Image (Needs extra configurations)
 * Inline text
 	* Strong
+    * Strikethrough
 	* Emphasis
 	* Code
 			

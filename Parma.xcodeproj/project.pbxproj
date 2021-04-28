@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		A6A8AEC22639A1B500AA1054 /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = A6A8AEC12639A1B500AA1054 /* Down */; };
+		A6A8AED22639A3CD00AA1054 /* StrikethroughElementComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A8AED12639A3CD00AA1054 /* StrikethroughElementComposer.swift */; };
 		OBJ_169 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* BaseNode.swift */; };
 		OBJ_170 /* BlockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* BlockQuote.swift */; };
 		OBJ_171 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Code.swift */; };
@@ -190,6 +191,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6A8AED12639A3CD00AA1054 /* StrikethroughElementComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrikethroughElementComposer.swift; sourceTree = "<group>"; };
 		"Down::Down::Product" /* Down.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Down::libcmark::Product" /* libcmark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libcmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* CodeElementComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeElementComposer.swift; sourceTree = "<group>"; };
@@ -709,6 +711,7 @@
 				OBJ_21 /* PlainTextComposer.swift */,
 				OBJ_22 /* StrongElementComposer.swift */,
 				OBJ_23 /* UnknownElementComposer.swift */,
+				A6A8AED12639A3CD00AA1054 /* StrikethroughElementComposer.swift */,
 			);
 			path = Composer;
 			sourceTree = "<group>";
@@ -968,6 +971,7 @@
 				OBJ_256 /* ListItemElementComposer.swift in Sources */,
 				OBJ_257 /* ParagraphElementComposer.swift in Sources */,
 				OBJ_258 /* PlainTextComposer.swift in Sources */,
+				A6A8AED22639A3CD00AA1054 /* StrikethroughElementComposer.swift in Sources */,
 				OBJ_259 /* StrongElementComposer.swift in Sources */,
 				OBJ_260 /* UnknownElementComposer.swift in Sources */,
 				OBJ_261 /* Element.swift in Sources */,
